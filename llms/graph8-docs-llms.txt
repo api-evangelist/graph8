@@ -1,0 +1,286 @@
+# graph8 documentation
+
+> Developer and product documentation for graph8 — the AI-native B2B sales platform. Covers Studio, desktop apps, Copilot, agents, REST API, MCP server, SDKs, and integrations.
+
+## Pages
+
+- [AI Features](https://docs.graph8.com/ai-features/): AI capabilities across enrichment, inbox, campaigns, and sales.
+- [Copilot Bridge](https://docs.graph8.com/ai-features/bridge/): Access graph8 Copilot from WhatsApp, Slack, Roam, and iMessage - ask questions and run actions from your messaging apps.
+- [AI Content Generation](https://docs.graph8.com/ai-features/content-generation/): Create personalized content with AI assistance
+- [Copilot](https://docs.graph8.com/ai-features/copilot/): AI assistant built into graph8 - ask questions, look up contacts, manage deals, run web searches, and take actions across your CRM using natural language.
+- [Enrichment](https://docs.graph8.com/ai-features/enrichment/): Fill missing contact data with waterfall enrichment - emails, phones, job titles, and company info from multiple data providers.
+- [AI Lead Scoring](https://docs.graph8.com/ai-features/lead-scoring/): Prioritize leads with AI-powered scoring
+- [AI Features Overview](https://docs.graph8.com/ai-features/overview/): AI capabilities built into every part of graph8 - enrichment, content generation, copilot, voice agents, lead scoring, and sales coaching.
+- [AI Research Assistant](https://docs.graph8.com/ai-features/research/): Research prospects and companies with AI
+- [Sales Coach](https://docs.graph8.com/ai-features/sales-coach/): AI-powered sales guidance - get real-time coaching on deals, objections, and next steps based on your pipeline data and competitive intel.
+- [Agents & Actions](https://docs.graph8.com/ai-features/skills/): Build AI agents with custom personas, attach reusable actions, connect knowledge bases, and deploy across phone, email, and chat.
+- [Voice Agents](https://docs.graph8.com/ai-features/voice-agents/): Create AI agents that handle phone calls, generate personalized outreach, and automate voice interactions.
+- [Workflows](https://docs.graph8.com/ai-features/workflows/): Automate multi-step AI workflows that chain skills, triggers, and actions together.
+- [Acquisition](https://docs.graph8.com/analytics/acquisition/): Understand where your visitors come from — traffic channels, campaigns, referrals, and AI-sourced traffic.
+- [Behavior](https://docs.graph8.com/analytics/behavior/): Analyze visitor behavior on your website — page performance, landing pages, exit pages, and custom event tracking.
+- [Conversions](https://docs.graph8.com/analytics/conversions/): Track goals, form submissions, and conversion funnels — measure what matters with completion rates, form performance, and step-by-step funnel analysis.
+- [Dialer Analytics](https://docs.graph8.com/analytics/dialer-analytics/): Call volume, connection rate, talk time, dispositions, redial performance, and team leaderboard — built into the Dialer.
+- [Marketing Intelligence](https://docs.graph8.com/analytics/marketing-intelligence/): Measure the web-to-outbound conversion funnel — qualified traffic, campaign attribution, content performance, and pipeline impact.
+- [Overview](https://docs.graph8.com/analytics/overview/): High-level snapshot of website traffic and engagement — visitors, sessions, page views, bounce rate, and top traffic sources.
+- [Realtime](https://docs.graph8.com/analytics/realtime/): Monitor live website activity — active visitors, page views, traffic sources, visitor locations, and company identification in real time.
+- [SDR Analytics](https://docs.graph8.com/analytics/sdr-analytics/): Personal SDR dashboard — execution health, outcomes, next-best actions, and your reply rate vs the team.
+- [What's New](https://docs.graph8.com/changelog/): Weekly release notes for graph8
+- [Companies](https://docs.graph8.com/data/companies/): View and organize company records with firmographic data, technographics, and account-level signals.
+- [Contacts](https://docs.graph8.com/data/contacts/): View, manage, and enrich individual contact records with activities, intelligence documents, and AI actions.
+- [Custom Fields](https://docs.graph8.com/data/custom-fields/): Create custom fields (dynamic columns) on contacts and companies to track data specific to your business.
+- [Customer Data Platform](https://docs.graph8.com/data/customer-data-platform/): How graph8 stores, unifies, and activates customer data — contacts, companies, events, audiences, enrichment, and identity resolution.
+- [Enrichment & Formulas](https://docs.graph8.com/data/enrichment/): Fill in missing data with waterfall enrichment, AI research, and computed formula columns — like a spreadsheet that enriches itself.
+- [Import & Export](https://docs.graph8.com/data/import-export/): Upload contacts from CSV or CRM, and export prospect lists from graph8.
+- [Managing Lists](https://docs.graph8.com/data/managing-lists/): Create prospect lists, import from CSV, filter and segment, and run bulk actions.
+- [Prospecting](https://docs.graph8.com/data/prospecting/): Search graph8's 200M+ contact database to find and save prospects to targeted lists.
+- [Workbench Pipelines](https://docs.graph8.com/data/staging-pipelines/): Automate multi-step data processing in the staging workbench — chain AI extraction, waterfall enrichment, formulas, and branching into reusable pipelines.
+- [Staging Workbench](https://docs.graph8.com/data/staging-workbench/): Import, structure, enrich, and prepare raw data before adding it to your contact lists.
+- [Suppressions](https://docs.graph8.com/data/suppressions/): Exclude contacts from outreach across email, phone, and LinkedIn, and reinstate them when needed.
+- [Tasks](https://docs.graph8.com/data/tasks/): Create, assign, and track tasks across contacts, companies, and deals for structured follow-up management.
+- [AE Cockpit](https://docs.graph8.com/deals/ae-cockpit/): AI-powered decision queue for account executives - prioritized actions, meeting prep, deal risk alerts, and coaching insights.
+- [Customers](https://docs.graph8.com/deals/customers/): Manage closed-won accounts - track post-sale activity, spot upsell opportunities, and monitor customer health.
+- [Deal Contacts & Notes](https://docs.graph8.com/deals/deal-contacts/): Manage buying committee contacts on deals - assign roles like champion, decision maker, and blocker. Add notes with @mentions for team collaboration.
+- [Leads](https://docs.graph8.com/deals/leads/): Unqualified to qualifying records — work the lead lifecycle with status, lifecycle stage, scoring, and bulk actions.
+- [Deals Overview](https://docs.graph8.com/deals/overview/): Manage your sales pipeline from lead to close with deals, forecasting, revenue tracking, and AI-powered deal management.
+- [Pipeline Settings](https://docs.graph8.com/deals/pipeline-settings/): Create and customize deal pipelines - add stages, set probabilities, and configure multiple pipelines for different sales processes.
+- [Products & Services](https://docs.graph8.com/deals/products/): Manage your product catalog - connect Stripe, track subscriptions, and attach products to deals for accurate revenue tracking.
+- [Prospects](https://docs.graph8.com/deals/prospects/): Companies with active deals in the pipeline - track progress from qualified to closed.
+- [Quotes](https://docs.graph8.com/deals/quotes/): Create and send quotes to prospects — line items pulled from Stripe, e-signature flow, expiration tracking, and contract terms.
+- [graph8 Desktop](https://docs.graph8.com/desktop/): Find help for every graph8 Desktop feature
+- [Knowledge Graph](https://docs.graph8.com/desktop/brain/graph/): Visual network graph of Brain pages with PageRank scoring and Louvain community detection.
+- [Brain Overview](https://docs.graph8.com/desktop/brain/overview/): Your second brain - auto-generated knowledge management system with full-text search and backlinks.
+- [Pages & Types](https://docs.graph8.com/desktop/brain/pages/): 16 Brain page types - contacts, companies, deals, signals, meetings, journals, and more.
+- [Auto-Synthesis](https://docs.graph8.com/desktop/brain/synthesis/): LLM-powered pipeline that creates Brain pages from Radar extractions on a 60-second processing queue.
+- [Browser Profile](https://docs.graph8.com/desktop/browser-profile/): Built-in browser with persistent sessions - stay logged in across app restarts.
+- [Chat & Projects](https://docs.graph8.com/desktop/copilot/chat/): Chat interface with model selection, file attachments, project organization, and persistent session history.
+- [Copilot Overview](https://docs.graph8.com/desktop/copilot/overview/): AI assistant with 40+ local tools - control your browser, read files, search Brain, run skills, and manage workflows.
+- [Tools & Capabilities](https://docs.graph8.com/desktop/copilot/tools/): 40+ Copilot tools organized by category - system, browser, search, workflows, desktop control, file system, and integrations.
+- [Settings](https://docs.graph8.com/desktop/desktop-settings/): Profile, services, schedules, connectors, skills, Radar, and LLM configuration.
+- [Installation](https://docs.graph8.com/desktop/installation/): System requirements, download, first launch, and authentication setup for graph8 Desktop on Mac and Windows.
+- [Actions](https://docs.graph8.com/desktop/linkedin/actions/): Take action on LinkedIn from graph8 Desktop - connect, message, post, engage, and visit profiles.
+- [Company Intelligence](https://docs.graph8.com/desktop/linkedin/companies/): Track LinkedIn company pages - monitor followers, visitors, messages, and posts in one place.
+- [LinkedIn Overview](https://docs.graph8.com/desktop/linkedin/overview/): How graph8 Desktop works as your LinkedIn companion - organize contacts, track engagement, and surface intelligence.
+- [Organizing Data](https://docs.graph8.com/desktop/linkedin/syncing/): Organize your LinkedIn data locally - connections, followers, messages, posts, search results, and company pages.
+- [MCP Server](https://docs.graph8.com/desktop/mcp-server/): Built-in MCP server exposing 11 browser tools - compatible with Claude Desktop, Cursor IDE, and any MCP client.
+- [Data Grids](https://docs.graph8.com/desktop/radar/grids/): Radar data grids - deals, campaigns, contacts, companies, discoveries, and meetings with sortable columns and filtering.
+- [Meetings](https://docs.graph8.com/desktop/radar/meetings/): Meeting capture, speaker detection, and auto-generated meeting notes from Radar audio and screen recording.
+- [Radar Overview](https://docs.graph8.com/desktop/radar/overview/): Screen intelligence system that watches your screen and extracts sales signals using AI.
+- [Productivity](https://docs.graph8.com/desktop/radar/productivity/): Daily productivity metrics, digital twin analysis, and AI-synthesized work pattern summaries.
+- [Screen Intelligence](https://docs.graph8.com/desktop/radar/screen-intelligence/): How Radar captures your screen, cleans text, and stores it locally for search and analysis.
+- [Signals & Discoveries](https://docs.graph8.com/desktop/radar/signals/): Sales signal types extracted from screen captures - hiring, promotion, funding, company news, and engagement signals.
+- [Setup Wizard](https://docs.graph8.com/desktop/setup/): Walk through the setup wizard - browser setup, LinkedIn login, X login, and Radar permissions.
+- [Autopilot](https://docs.graph8.com/desktop/tasks/autopilot/): Autonomous pattern detection with hourly and nightly scans, proposals, and an insights dashboard.
+- [Connectors](https://docs.graph8.com/desktop/tasks/connectors/): Integrate external services via OAuth or API key - each connector enables additional Copilot tools.
+- [Tasks Overview](https://docs.graph8.com/desktop/tasks/overview/): Autonomous multi-step agent executions with streaming progress, permission system, and choice cards.
+- [AI Enrichment](https://docs.graph8.com/desktop/workbench/ai-enrichment/): Add AI-powered columns to any workbench - LLM enriches each row based on your prompt template.
+- [Cloud Sync](https://docs.graph8.com/desktop/workbench/cloud-sync/): Push local workbench data to graph8 Cloud - map columns, export, and link cloud lists for ongoing sync.
+- [Formulas & Triggers](https://docs.graph8.com/desktop/workbench/formulas-triggers/): Define computed formula columns and automation triggers that fire on row changes.
+- [Importing Data](https://docs.graph8.com/desktop/workbench/importing/): Import data via CSV upload, clipboard paste, cloud list import, or auto-sync import.
+- [Workbench Overview](https://docs.graph8.com/desktop/workbench/overview/): Local data tables stored in SQLite - auto-sync tables from LinkedIn/X and custom user workbenches.
+- [Actions](https://docs.graph8.com/desktop/x/actions/): Take action on X from graph8 Desktop - post tweets and reply to conversations.
+- [X (Twitter) Overview](https://docs.graph8.com/desktop/x/overview/): graph8 Desktop as your X/Twitter companion - organize your presence, track engagement, and manage multiple accounts.
+- [Organizing Data](https://docs.graph8.com/desktop/x/syncing/): Organize your X/Twitter data locally - profile, tweets, followers, and following.
+- [REST API Overview](https://docs.graph8.com/developers/): Programmatic access to graph8 CRM, enrichment, and prospecting data
+- [Agency Keys & Cross-Org Targeting](https://docs.graph8.com/developers/agency-keys/): Mint a single agency-scoped API key to operate any client org across the entire Developer API without one key per client.
+- [REST API FAQ](https://docs.graph8.com/developers/api-faq/): Common questions about the graph8 Developer REST API — auth headers, pagination, rate limits, errors, idempotency, webhooks, and credits
+- [API Keys: Live & Test Mode](https://docs.graph8.com/developers/api-keys/): Mint live and test API keys with g8_live_/g8_test_ prefixes
+- [Appointments Management](https://docs.graph8.com/developers/appointments/): Manage event types, bookings, schedules, availability, routing forms, workflows, and calendar integrations via the graph8 API
+- [Assert / Upsert](https://docs.graph8.com/developers/assert/): Idempotent create-or-update for contacts, companies, and deals
+- [Audience Syncs](https://docs.graph8.com/developers/audience-syncs/): Mirror contact lists to ad platforms (Meta, LinkedIn, Google Ads, X) on a recurring schedule
+- [Authentication](https://docs.graph8.com/developers/authentication/): Authenticate API requests with org API keys
+- [Automation Platforms](https://docs.graph8.com/developers/automation-platforms/): Connect workflow automation tools to graph8 Studio via MCP
+- [Claude Code Setup](https://docs.graph8.com/developers/claude-code-setup/): Connect Claude Code to graph8 via MCP using ~/.claude/mcp.json with OAuth or stdio
+- [Claude Desktop Setup](https://docs.graph8.com/developers/claude-desktop-setup/): Connect Claude Desktop to graph8 Studio via MCP
+- [CLI](https://docs.graph8.com/developers/cli/): graph8 developer CLI for tracking snippets and progressive forms
+- [CLI Campaigns](https://docs.graph8.com/developers/cli-campaigns/): List, create, update, and launch repo-scoped campaigns via the graph8 Developer API
+- [CLI Examples](https://docs.graph8.com/developers/cli-examples/): Worked terminal workflows using the g8 CLI — prospect, enrich, sequence, quote, workflow, intent-driven outreach
+- [CLI FAQ](https://docs.graph8.com/developers/cli-faq/): Common questions about the g8 CLI — install, auth, scripting, output formats, parity with MCP and SDK
+- [CLI Pipelines (Deal Pipelines)](https://docs.graph8.com/developers/cli-pipelines/): Create and manage deal pipelines — the lightweight stage lists that deals progress through in graph8
+- [Repos & Spine](https://docs.graph8.com/developers/cli-spine/): Connect repositories, run scans, install tracking, manage patch sets, and search the per-repo knowledge base via the graph8 Developer API.
+- [ClickHouse](https://docs.graph8.com/developers/clickhouse/): Read-only enrichment and per-org visitor analytics against graph8's ClickHouse instances
+- [Companies](https://docs.graph8.com/developers/companies/): List, update, and delete companies and their contacts in your workspace
+- [Contacts](https://docs.graph8.com/developers/contacts/): List, create, update, and delete contacts in your workspace
+- [CrewAI Setup](https://docs.graph8.com/developers/crewai-setup/): Connect CrewAI multi-agent crews to graph8 via MCPServerAdapter
+- [CRM Syncs](https://docs.graph8.com/developers/crm-syncs/): Push contacts, companies, and list memberships to HubSpot, Salesforce, Pipedrive, Zoho, or SugarCRM
+- [Cursor IDE Setup](https://docs.graph8.com/developers/cursor-setup/): Connect Cursor IDE to graph8 Studio via MCP
+- [Data Pipeline](https://docs.graph8.com/developers/data-pipeline/): How events flow from your app to destinations - streams, functions, and real-time routing
+- [Deals](https://docs.graph8.com/developers/deals/): Create, manage, and track deals across your pipeline stages
+- [Destinations](https://docs.graph8.com/developers/destinations/): Route events to data warehouses, analytics tools, and CRMs automatically
+- [Enrichment](https://docs.graph8.com/developers/enrichment/): Lookup contacts and companies, run waterfall enrichment, and verify emails
+- [Errors](https://docs.graph8.com/developers/errors/): HTTP status codes and error response format
+- [Fields](https://docs.graph8.com/developers/fields/): List, create, and write custom field definitions and values for contacts and companies
+- [Functions](https://docs.graph8.com/developers/functions/): Transform, filter, and enrich events with JavaScript before they reach destinations
+- [Getting Started](https://docs.graph8.com/developers/getting-started/): Choose how to integrate with graph8 - SDK, MCP, CLI, or REST API
+- [GTM Campaigns](https://docs.graph8.com/developers/gtm-campaigns/): Create and manage AI Studio campaigns, documents, and sequence step catalogs
+- [GTM Context](https://docs.graph8.com/developers/gtm-context/): Read and update global context documents, personas, ICPs, mailboxes, intelligence data, research reports, and activities
+- [GTM Knowledge Base](https://docs.graph8.com/developers/gtm-knowledge-base/): Search and list org-scoped knowledge base documents used by GTM campaigns and AI agents
+- [Idempotency](https://docs.graph8.com/developers/idempotency/): Safely retry create requests without duplicating data using Idempotency-Key
+- [Inbox](https://docs.graph8.com/developers/inbox/): Multi-channel inbox: list threads, generate AI drafts, send replies via email, SMS, or LinkedIn
+- [Intent & Signals](https://docs.graph8.com/developers/intent-signals/): REST reference for graph8's intent tracking — keywords, page visitors, account-level intent search, signal scoring
+- [Restricted Keys (Scopes)](https://docs.graph8.com/developers/key-scopes/): Limit an API key to specific resource:action scopes
+- [Landing Pages](https://docs.graph8.com/developers/landing-pages/): REST reference for graph8 landing pages — clone from URL or homepage, edit, publish to Cloudflare Pages
+- [LangChain Setup](https://docs.graph8.com/developers/langchain-setup/): Connect LangChain agents to graph8 via MCP using langchain-mcp-adapters and LangGraph
+- [Launch Helpers](https://docs.graph8.com/developers/launch-helpers/): Discovery endpoints for the pre-launch fields used when launching campaigns and updating sequences
+- [Lists](https://docs.graph8.com/developers/lists/): Create, manage, and populate contact lists
+- [Live Events](https://docs.graph8.com/developers/live-events/): Real-time event debugger - see events flowing through your pipeline as they happen
+- [LlamaIndex Setup](https://docs.graph8.com/developers/llamaindex-setup/): Connect LlamaIndex agents to graph8 via MCP using llama-index-tools-mcp
+- [MCP Server](https://docs.graph8.com/developers/mcp/): Connect AI coding agents to graph8 via the Model Context Protocol
+- [MCP Examples](https://docs.graph8.com/developers/mcp-examples/): End-to-end worked examples for graph8 MCP across prospecting, inbox, ads, tracking install, voice, and full GTM setup
+- [MCP FAQ](https://docs.graph8.com/developers/mcp-faq/): Answers to common questions about the graph8 MCP server - free tier, modes, errors, security, and multi-org
+- [MCP Tool Reference](https://docs.graph8.com/developers/mcp-tools/): Complete reference for every tool exposed by the graph8 MCP server
+- [Meetings](https://docs.graph8.com/developers/meetings/): List and retrieve meetings — including attendees, transcript, and AI analysis — from the graph8 inbox
+- [n8n Setup](https://docs.graph8.com/developers/n8n-setup/): Connect n8n to graph8 Studio via MCP
+- [Notes](https://docs.graph8.com/developers/notes/): Create, update, and manage notes on contacts
+- [OpenAI Agents SDK Setup](https://docs.graph8.com/developers/openai-sdk-setup/): Connect OpenAI Agents SDK to graph8 via MCP using MCPServerStreamableHttp
+- [OpenSearch (Raw Data Access)](https://docs.graph8.com/developers/opensearch/): Structured search, count, aggregate, and bulk ID resolution against the graph8 mashup OpenSearch indices
+- [Pagination](https://docs.graph8.com/developers/pagination/): Response envelope format and how to paginate through results
+- [Stage Checklist Pipelines](https://docs.graph8.com/developers/pipelines/): REST reference for graph8 Stage Checklist v2 pipelines — multi-stage workflows with evidence requirements and channel scripts
+- [Pricing](https://docs.graph8.com/developers/pricing/): Plans, credit costs, the unlimited graph8-index bundle, and auto-CRM-capture for the graph8 Developer API
+- [Public Endpoints](https://docs.graph8.com/developers/public-endpoints/): Browser-safe endpoints authenticated by write key: copilot chat, intent signals, visitor identity
+- [Pydantic AI Setup](https://docs.graph8.com/developers/pydantic-ai-setup/): Connect Pydantic AI agents to graph8 via MCP with typed agent outputs
+- [Quotes](https://docs.graph8.com/developers/quotes/): Create, send, sign, and manage quotes through graph8's quote-to-cash lifecycle
+- [Rate Limits](https://docs.graph8.com/developers/rate-limits/): API rate limits and how to handle them
+- [Request Logs](https://docs.graph8.com/developers/request-logs/): Inspect your organization's most recent API requests for debugging
+- [JavaScript SDK](https://docs.graph8.com/developers/sdk/): The most comprehensive GTM SDK - 25+ modules at full MCP parity. Tracking, visitor intel, AI copilot, webchat, booking, enrichment, sequences, campaigns, CRM, deals, tasks, notes, fields, quotes, pipelines, workflows, skills, voice, intent, studio.
+- [SDK Examples](https://docs.graph8.com/developers/sdk-examples/): End-to-end worked workflows using @graph8/js — prospecting, sequences, quotes, workflows, intent-driven outreach
+- [SDK FAQ](https://docs.graph8.com/developers/sdk-faq/): Common questions about @graph8/js — write keys vs API keys, SSR, React, bundling, parity with MCP, and troubleshooting
+- [Search](https://docs.graph8.com/developers/search/): Search graph8's global B2B database for contacts and companies with advanced filters
+- [Sequences](https://docs.graph8.com/developers/sequences/): List, run, pause, and resume email sequences
+- [Sequence Lifecycle](https://docs.graph8.com/developers/sequences-lifecycle/): Create, preview, update, archive, and read analytics for sequences
+- [Skills (LLM + API)](https://docs.graph8.com/developers/skills/): Create, manage, validate, and execute reusable LLM and API skills in your graph8 workspace
+- [Snippet](https://docs.graph8.com/developers/snippet/): Retrieve the org-level tracking snippet and embeddable lead-capture form configuration
+- [Tasks](https://docs.graph8.com/developers/tasks/): Create, manage, and track tasks on contacts
+- [Usage & Metering](https://docs.graph8.com/developers/usage/): Read your organization's credit balance and transaction ledger over the API
+- [Voice & Dialer](https://docs.graph8.com/developers/voice/): REST reference for graph8's parallel dialer — sessions, calls, transcripts, AI grading, agents, and phone numbers
+- [VS Code Setup](https://docs.graph8.com/developers/vscode-setup/): Connect VS Code to graph8 via native MCP support using .vscode/mcp.json
+- [Webhooks](https://docs.graph8.com/developers/webhooks/): Subscribe to events and manage webhook deliveries
+- [What You Can Ask](https://docs.graph8.com/developers/what-you-can-ask/): Everything you can do with MCP in graph8 Studio
+- [Workflows](https://docs.graph8.com/developers/workflows/): Create, update, execute, and manage automation workflow graphs in your graph8 workspace
+- [Appointments](https://docs.graph8.com/engage/appointments/): Schedule and manage appointments — automatic contact creation, CRM meeting sync, and owner assignment.
+- [Connections](https://docs.graph8.com/engage/connections/): Connect and sync your tools — manage data streams, destinations, transformations, and real-time event tracking.
+- [Dialer](https://docs.graph8.com/engage/dialer/): Power dialer for outbound calls — parallel dialing, call recording, voicemail detection, AI voice agents, and SDR analytics.
+- [HeyReach Campaign Overview](https://docs.graph8.com/engage/heyreach-campaign-overview/): Monitor LinkedIn campaign performance, lead progress, and engagement metrics directly from your sequence step cards.
+- [Inbox](https://docs.graph8.com/engage/inbox/): Manage all conversations in one place — email, LinkedIn, SMS, chat, calls, and meetings with AI-powered response and review tools.
+- [LinkedIn Publishing](https://docs.graph8.com/engage/linkedin-publishing/): Compose, schedule, and publish organic LinkedIn posts from graph8, then turn the people who engage into pipeline.
+- [Meetings](https://docs.graph8.com/engage/meetings/): Review scheduled meetings in the Inbox — filter customer, prospect, and internal calls, manage transcript links, and work from AI-generated meeting context.
+- [Newsletter](https://docs.graph8.com/engage/newsletter/): Send branded newsletters to your subscriber lists with full engagement tracking.
+- [Nurture](https://docs.graph8.com/engage/nurture/): Engage consented audiences at scale with multi-step nurture campaigns, built for warm leads, customers, and opted-in subscribers.
+- [Sequencer](https://docs.graph8.com/engage/sequencer/): Build automated multi-step outreach sequences across email, LinkedIn, phone, SMS, and WhatsApp.
+- [Web Chat](https://docs.graph8.com/engage/web-chat/): Engage website visitors with a customizable live chat widget — AI agents, action buttons, preset questions, and calendar booking.
+- [Centro de ayuda de graph8](https://docs.graph8.com/es/): Encuentre ayuda para cada funcionalidad de graph8
+- [Getting Started](https://docs.graph8.com/getting-started/): Set up your account, invite your team, and learn the basics of graph8.
+- [Connect Your Calendar](https://docs.graph8.com/getting-started/connect-calendar/): Link your calendar to graph8 for scheduling, availability detection, and automatic meeting logging.
+- [Connect Your Website](https://docs.graph8.com/getting-started/connect-website/): Add the graph8 tracking snippet to your website for real-time visitor tracking, form fills, and analytics.
+- [Initial Setup](https://docs.graph8.com/getting-started/initial-setup/): Enter your domain, generate company intelligence, and pick one of two guided paths to start working.
+- [What is graph8?](https://docs.graph8.com/getting-started/what-is-graph8/): An introduction to graph8 — what it does and what to expect.
+- [graph8 Help Center](https://docs.graph8.com/index/): Find help for every graph8 feature
+- [graph8 Marketplace](https://docs.graph8.com/marketplace/): Hire vetted GTM talent or join as a sales professional — the graph8 Marketplace connects companies with freelance SDRs, AEs, and GTM Engineers.
+- [Browsing & Filtering Talent](https://docs.graph8.com/marketplace/clients/browse/): Search, sort, and filter the talent catalog to find the right SDRs, AEs, and GTM Engineers — and save searches you want to reuse.
+- [Hiring Talent](https://docs.graph8.com/marketplace/clients/hiring/): Send a hire offer with custom rates and a start date, and follow it from pending acceptance to an active contract.
+- [Managing Hired Talent](https://docs.graph8.com/marketplace/clients/managing/): Work with the talent you've hired — message them, track meetings, and review and pay their statements.
+- [Opening the Marketplace](https://docs.graph8.com/marketplace/clients/overview/): Find the Marketplace in graph8 and get oriented with the six tabs clients use to hire and manage talent.
+- [Talent Profiles & Match Scores](https://docs.graph8.com/marketplace/clients/profiles/): Read a talent card, understand certification tiers, and interpret the match-score radar before you hire.
+- [How It Works](https://docs.graph8.com/marketplace/how-it-works/): How the graph8 Marketplace connects clients and talent — vetting, certification, rates, and the commission model.
+- [Setting Up Your AI Twin](https://docs.graph8.com/marketplace/talent/ai-twin/): Complete your AI Twin so graph8 can write and act on your behalf — career details, voice, and a LinkedIn import.
+- [Joining the Marketplace](https://docs.graph8.com/marketplace/talent/join/): Sign up as graph8 Marketplace talent, accept your profile, and start the certification that gets you listed.
+- [Your Listing & Getting Scored](https://docs.graph8.com/marketplace/talent/listing/): Set up your public Marketplace Profile — upload your resume to get scored, set your rate card, and control your availability.
+- [Messages & Meetings](https://docs.graph8.com/marketplace/talent/messages-meetings/): Stay in touch with hiring clients and track the meetings you book from the Messages and Meetings tabs.
+- [Receiving & Accepting Offers](https://docs.graph8.com/marketplace/talent/offers/): Review hire offers from clients, check the order form, and accept or decline.
+- [Getting Paid](https://docs.graph8.com/marketplace/talent/payouts/): Submit statements for your work, set up a payout method, and track your earnings from the Invoices and Payouts tabs.
+- [Switching Between Accounts](https://docs.graph8.com/marketplace/talent/switching-accounts/): Move between your talent profile and a client organization using the org switcher.
+- [graph8 by role](https://docs.graph8.com/roles/): Pick your role to see the exact surfaces, URLs, and screenshots you'll touch every day. 22 field guides.
+- [graph8 for Account Manager](https://docs.graph8.com/roles/account-manager/): graph8 field guide for Account Manager. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Account Executive](https://docs.graph8.com/roles/ae/): graph8 field guide for Account Executive. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for AI Agent Operator](https://docs.graph8.com/roles/agent-op/): graph8 field guide for AI Agent Operator. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Campaign Manager](https://docs.graph8.com/roles/campaign-manager/): graph8 field guide for Campaign Manager. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Content Marketer](https://docs.graph8.com/roles/content/): graph8 field guide for Content Marketer. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for CRO](https://docs.graph8.com/roles/cro/): graph8 field guide for CRO. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for CSM](https://docs.graph8.com/roles/csm/): graph8 field guide for CSM. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Finance](https://docs.graph8.com/roles/finance/): graph8 field guide for Finance. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Founder / CEO](https://docs.graph8.com/roles/founder/): graph8 field guide for Founder / CEO. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for GTM Engineer](https://docs.graph8.com/roles/gtm-engineer/): graph8 field guide for GTM Engineer. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Marketing / Demand Gen](https://docs.graph8.com/roles/marketing/): graph8 field guide for Marketing / Demand Gen. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Marketing Operations](https://docs.graph8.com/roles/mops/): graph8 field guide for Marketing Operations. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Onboarding / Implementation](https://docs.graph8.com/roles/onboarding/): graph8 field guide for Onboarding / Implementation. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Product Marketing](https://docs.graph8.com/roles/pmm/): graph8 field guide for Product Marketing. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Recruiter](https://docs.graph8.com/roles/recruiter/): graph8 field guide for Recruiter. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for RevOps](https://docs.graph8.com/roles/revops/): graph8 field guide for RevOps. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Sales Engineer](https://docs.graph8.com/roles/sales-engineer/): graph8 field guide for Sales Engineer. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Sales Manager](https://docs.graph8.com/roles/sales-manager/): graph8 field guide for Sales Manager. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for SDR](https://docs.graph8.com/roles/sdr/): graph8 field guide for SDR. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for SDR Manager](https://docs.graph8.com/roles/sdr-manager/): graph8 field guide for SDR Manager. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for Trial Specialist](https://docs.graph8.com/roles/trial/): graph8 field guide for Trial Specialist. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [graph8 for VP Sales / Head of Sales](https://docs.graph8.com/roles/vp-sales/): graph8 field guide for VP Sales / Head of Sales. Live URLs, real surfaces, screenshots from a public-data showcase tenant.
+- [API, MCP & CLI](https://docs.graph8.com/settings/api/): Create and manage API keys, connect MCP tools, and set up the CLI.
+- [Audience Sync](https://docs.graph8.com/settings/audience-sync/): Sync contact lists to ad platforms - push audiences to Meta, LinkedIn, Google Ads, and X for targeted advertising.
+- [Billing](https://docs.graph8.com/settings/billing/): Manage subscription, credits, and payment.
+- [Bug Reports](https://docs.graph8.com/settings/bug-reports/): Report bugs directly from graph8 - attach screenshots, track status, and communicate with the team.
+- [Company Settings](https://docs.graph8.com/settings/company/): Configure your organization's core settings - name, domain, timezone, industry, and branding defaults.
+- [Compliance](https://docs.graph8.com/settings/compliance/): Email compliance and suppression management.
+- [Deals](https://docs.graph8.com/settings/deals/): Configure deal stages in pipelines.
+- [Docs](https://docs.graph8.com/settings/docs/): Control default document generation and meeting transcript extraction by scope.
+- [Domains](https://docs.graph8.com/settings/domains/): Manage email sending domains and DNS.
+- [Email Warmup](https://docs.graph8.com/settings/email-warmup/): Build sender reputation for new mailboxes with automated email warmup - configure daily limits, ramp-up speed, and monitor deliverability.
+- [Integrations](https://docs.graph8.com/settings/integrations/): Connect third-party tools and services.
+- [Mailboxes](https://docs.graph8.com/settings/mailboxes/): Connect and manage email mailboxes.
+- [Phone Numbers](https://docs.graph8.com/settings/phone-numbers/): Manage phone numbers for calls and SMS.
+- [Pipedrive Integration](https://docs.graph8.com/settings/pipedrive/): Connect Pipedrive to graph8 to pull and push contacts, organizations, deals, and leads using Pipedrive labels.
+- [Purchase Domain & Mailboxes](https://docs.graph8.com/settings/purchase-domains/): Buy domains and set up mailboxes directly in graph8.
+- [Roles](https://docs.graph8.com/settings/roles/): Define custom roles and permissions.
+- [Schedule & Availability](https://docs.graph8.com/settings/schedule-availability/): Set your working hours and availability for meetings, appointments, and sequence scheduling.
+- [Scraping](https://docs.graph8.com/settings/scraping/): Configure website scraping behavior and exclusions.
+- [SSO](https://docs.graph8.com/settings/sso/): Single sign-on configuration (Enterprise).
+- [Users](https://docs.graph8.com/settings/team/): Invite and manage the users in your graph8 organization - roles, status, contact details, and invitations.
+- [Buying Committees](https://docs.graph8.com/signals/buying-committees/): See account-level buying intent rolled up across the people who actually make the decision - the economic buyer, champion, end user, and technical evaluator.
+- [Forms](https://docs.graph8.com/signals/forms/): Capture leads from website form submissions and automatically add them to your contact lists.
+- [Hiring Signals](https://docs.graph8.com/signals/hiring/): Track companies that are actively hiring and people who change jobs - including talent moving in and out of your competitors.
+- [Intent Tracking](https://docs.graph8.com/signals/intent-tracking/): Detect buying intent from your own website and from across the web using keyword and topic tracking.
+- [Signals Overview](https://docs.graph8.com/signals/overview/): Understand buying signals — how graph8 detects intent from website visitors, form submissions, and keyword tracking.
+- [Social Listener](https://docs.graph8.com/signals/social-listener/): Monitor X (Twitter) for brand mentions, competitors, keywords, and high-intent buying signals - on graph8's shared X API or your own X Developer App.
+- [Trends](https://docs.graph8.com/signals/trends/): Track industry trends with growth scores, company correlations, and category breakdowns to identify demand signals.
+- [Website Visitors](https://docs.graph8.com/signals/website-visitors/): Track anonymous website visitors, identify companies, and turn traffic into actionable leads.
+- [Companies](https://docs.graph8.com/studio/accounts/): Run AI-powered company intelligence, generate deal strategy documents, and manage your sales pipeline.
+- [Ads](https://docs.graph8.com/studio/ads/): Design on-brand ad creatives with AI and launch paid campaigns to Meta, LinkedIn, Google Ads, and X from one workspace.
+- [Google Ads Setup](https://docs.graph8.com/studio/ads-google/): Set up a Google Ads account, connect it to graph8, launch a Google campaign, and verify your ads inside Google Ads.
+- [LinkedIn Ads Setup](https://docs.graph8.com/studio/ads-linkedin/): Set up LinkedIn Campaign Manager, connect it to graph8, launch a LinkedIn campaign, and verify your ads inside LinkedIn.
+- [Campaigns](https://docs.graph8.com/studio/campaigns/): Create AI-powered campaigns — from ideation through document generation to launching into your outreach sequences.
+- [Content](https://docs.graph8.com/studio/content/): Manage your website content inventory, analyze SEO health, and use AI to refresh or create content at scale.
+- [Copilot](https://docs.graph8.com/studio/copilot/): Use Studio Copilot to create, edit, and analyze your campaign documents with AI-powered skills.
+- [Custom Records](https://docs.graph8.com/studio/custom-records/): Model custom object types beyond contacts and companies — accounts, opportunities, territories, products, or anything specific to your business.
+- [Run Actions on Contacts and Companies](https://docs.graph8.com/studio/entity-action-execution/): Execute any AI action directly from a contact or company detail page, with that record's data used as context.
+- [Global Context](https://docs.graph8.com/studio/global/): Set up your organization's brand, personas, ICPs, and intelligence — the strategic foundation that powers all AI-generated content.
+- [Intelligence](https://docs.graph8.com/studio/intelligence/): Research competitors, scrape websites, discover keywords, and enrich company data — all from Studio's Intelligence module.
+- [Landing Pages](https://docs.graph8.com/studio/landing-pages/): Create, edit, and publish landing pages using AI - clone from your website, start from a template, or build from scratch.
+- [Security Questionnaires](https://docs.graph8.com/studio/security-questionnaires/): Upload security questionnaires, let AI draft answers from your approved responses, and ship completed questionnaires faster.
+- [Skills](https://docs.graph8.com/studio/skills/): Create, version, and deploy reusable AI skills — structured prompts that run across contacts, companies, campaigns, and documents.
+- [Team](https://docs.graph8.com/studio/team/): Set up team profiles, AI Twins, and thought leadership content — generate personalized content in each team member's voice.
+- [Role-Based Training](https://docs.graph8.com/training/): Interactive, mission-based training to get you productive with graph8 fast
+- [Account Executive Training](https://docs.graph8.com/training/account-executives/): Maximize deal velocity through AI-powered company intelligence
+- [AE Training Missions](https://docs.graph8.com/training/ae/): Four hands-on missions to master graph8 studio as an Account Executive
+- [Mission 3: Leverage AI for Selling](https://docs.graph8.com/training/ae/ai-selling/): Use Copilot for deep research, generate AI-powered emails, and leverage meeting transcripts
+- [Mission 4: Close Deals Faster](https://docs.graph8.com/training/ae/closing/): Track deal velocity, keep your pipeline current, and export deal summaries for stakeholders
+- [Mission 2: Build Your Pipeline](https://docs.graph8.com/training/ae/pipeline/): Create deals, set values and close dates, and move opportunities through pipeline stages
+- [Mission 1: Master Company Research](https://docs.graph8.com/training/ae/research/): Run Company Intelligence, map stakeholders, and prepare for calls in under 5 minutes
+- [Getting Started Training](https://docs.graph8.com/training/general/): A guided walkthrough of graph8 for new users
+- [Mission 3: Connect Your Tools](https://docs.graph8.com/training/general/connect/): Link your CRM and email so graph8 can sync data and send outreach
+- [Mission 2: Get Your Data In](https://docs.graph8.com/training/general/first-data/): Import contacts and create your first list
+- [Mission 1: Navigate graph8](https://docs.graph8.com/training/general/navigate/): Learn the layout — data, studio, engage, signals, and settings
+- [Growth Manager Training](https://docs.graph8.com/training/growth-manager/): Five hands-on missions that take you from first login to optimized campaign delivery
+- [Mission 3: Create Your First Campaign](https://docs.graph8.com/training/growth-manager/first-campaign/): Generate campaign ideas from AI, push the best one to a full campaign, and refine content in Canvas
+- [Mission 2: Generate Global Context](https://docs.graph8.com/training/growth-manager/global-context/): Trigger Context Generation and review the Personas, ICPs, and Research Reports that power every campaign
+- [Mission 1: Onboard Your First Client](https://docs.graph8.com/training/growth-manager/onboarding/): Set up the Company Profile, run the Intelligence Workflow, and approve the profile to unlock downstream features
+- [Mission 5: Monitor and Optimize](https://docs.graph8.com/training/growth-manager/optimize/): Use the Campaign Dashboard, document health scores, export features, and sequence analytics to optimize performance
+- [Mission 4: Master the Sequencer](https://docs.graph8.com/training/growth-manager/sequencer/): Create an email sequence from your campaign, configure steps with timing and templates, add contacts, and launch
+- [Growth Manager Training](https://docs.graph8.com/training/growth-managers/): Deliver high-quality, AI-powered campaigns while maximizing efficiency
+- [Sales Manager Training](https://docs.graph8.com/training/sales-managers/): Pipeline visibility, deal velocity, and campaign health metrics
+- [SDR Training Missions](https://docs.graph8.com/training/sdr/): Five hands-on missions to get you fully productive in graph8 as an SDR
+- [SDR Manager Training](https://docs.graph8.com/training/sdr-managers/): Conversion funnel visibility and team performance metrics
+- [Mission 5: Build Your Daily Workflow](https://docs.graph8.com/training/sdr/daily-workflow/): Establish a repeatable daily routine for morning prep, working accounts, and logging activities
+- [Mission 2: Launch Your First Sequence](https://docs.graph8.com/training/sdr/first-sequence/): Create a multi-step outreach sequence, add contacts, and activate it
+- [Mission 1: Set Up Your Foundation](https://docs.graph8.com/training/sdr/foundation/): Import contacts, create lists, enrich data, and review ICP scores
+- [Mission 3: Master Company Intelligence](https://docs.graph8.com/training/sdr/intelligence/): Run intelligence on companies, review research categories, and use Copilot for quick insights
+- [Mission 4: Connect Your Tools](https://docs.graph8.com/training/sdr/tools/): Link your CRM, mailbox, and calendar to graph8 for a seamless workflow
+- [SDR Training](https://docs.graph8.com/training/sdrs/): Maximize outreach efficiency through AI-powered prioritization and research
+
+## Versions
+- [Spanish version](https://docs.graph8.com/es/): Versión en español

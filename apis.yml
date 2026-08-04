@@ -1,0 +1,157 @@
+aid: graph8
+url: https://raw.githubusercontent.com/api-evangelist/graph8/refs/heads/main/apis.yml
+name: graph8
+description: 'graph8 is an autonomous revenue system — an AI-native B2B sales platform that finds buyers,
+  launches campaigns, runs conversations and builds pipeline against a single buyer graph. It spans buyer
+  and intent data (a claimed 700M contacts and 100M companies), signals, a campaign studio, named agents,
+  CRM and pipeline reporting, a built-in CDP with 500+ connectors, and a desktop companion. It is one
+  of four brands under one company: graph8 the platform, graph8 build the developer platform, CIENCE the
+  SDR and GTM services arm, and Tenbound the research magazine and community. The developer surface at
+  graph8.com/build is documented across six areas — REST API, SDKs, CLI, MCP, React components and infrastructure
+  — but is in preview: at the time of profiling no OpenAPI and no MCP endpoint were publicly fetchable,
+  and a workspace endpoint is issued on request rather than self-serve.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graph8.png
+created: '2026-08-03'
+modified: '2026-08-03'
+specificationVersion: '0.21'
+type: Index
+position: Producing
+access: 3rd-Party
+kind: contract
+tags:
+- Sales
+- Revenue
+- Business Intelligence
+- Contacts
+- Companies
+- Signals
+- Intent
+- Agents
+- Artificial Intelligence
+- Campaigns
+- CRM
+- Data Pipelines
+- MCP
+apis:
+- aid: graph8:graph8-build-api
+  name: graph8 build API
+  description: One REST API across the revenue surface — contacts, companies, campaigns and events — plus
+    SDKs, a CLI and an MCP server. Preview access; a workspace endpoint is issued on request.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://graph8.com/build/
+  tags:
+  - Sales
+  - Revenue
+  - Contacts
+  - Campaigns
+  - MCP
+  properties:
+  - url: https://graph8.com/build/
+    type: DeveloperPortal
+  - url: https://graph8.com/build/api
+    type: APIReference
+  - url: https://docs.graph8.com/
+    type: Documentation
+  - url: https://docs.graph8.com/developers/authentication/
+    type: Authentication
+  - url: https://docs.graph8.com/developers/api-keys/
+    type: Signup
+  - url: https://docs.graph8.com/developers/sdk/
+    type: SDKs
+  - url: https://graph8.com/build/cli
+    type: CLI
+  - url: https://docs.graph8.com/developers/webhooks/
+    type: Webhooks
+  - url: https://docs.graph8.com/developers/mcp/
+    type: MCPServer
+  - url: https://graph8.com/build/status
+    type: StatusPage
+  - url: https://graph8.com/build/changelog
+    type: ChangeLog
+  - url: https://graph8.com/pricing
+    type: Pricing
+  - url: https://graph8.com/llms.txt
+    type: LlmsText
+  baseURL: https://graph8.com
+  X-BaseURL-Note: No public API host is reachable — api.graph8.com does not resolve and a workspace endpoint
+    is issued on request. The apex is recorded to satisfy the required field; it is NOT a callable API
+    base URL.
+common:
+- url: https://graph8.com
+  type: Website
+- url: https://graph8.com/build/
+  type: DeveloperPortal
+- url: https://docs.graph8.com/
+  type: Documentation
+- url: https://graph8.com/pricing
+  type: Pricing
+- url: https://graph8.com/llms.txt
+  type: LlmsText
+- url: https://docs.graph8.com/llms.txt
+  type: LlmsText
+- url: plans/graph8-plans.yml
+  type: Plans
+- url: https://graph8.com/build/status
+  type: StatusPage
+- url: https://graph8.com/build/changelog
+  type: ChangeLog
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+X-Discovery:
+  date: '2026-08-03'
+  method: probed
+  note: Profiled ahead of a 2026-08-04 consultation. Every surface was fetched; nothing here is modelled
+    on the provider's behalf. The negative findings below are the substance.
+  findings:
+  - surface: LlmsTxt
+    url: https://graph8.com/llms.txt
+    http_status: 200
+    real: true
+    note: 3.4KB, well structured.
+  - surface: LlmsTxt
+    url: https://docs.graph8.com/llms.txt
+    http_status: 200
+    real: true
+    note: 46KB, 278 links, 15 dedicated developer pages.
+  - surface: DeveloperPortal
+    url: https://graph8.com/build/
+    http_status: 200
+    real: true
+    note: 'Six documented surfaces: API, SDKs, CLI, MCP, components, infrastructure.'
+  - surface: OpenAPI
+    url: https://graph8.com/openapi.json
+    http_status: 404
+    real: false
+    note: NO OpenAPI is published. 404 at /openapi.json, docs.graph8.com/openapi.json and /api-reference/openapi.json;
+      api.graph8.com does not resolve. The /build/status page nonetheless advertises "REST + OpenAPI —
+      Operational".
+  - surface: OpenAPI
+    url: https://graph8.com/api/openapi.json
+    http_status: 200
+    real: false
+    note: FALSE POSITIVE — rejected. Returns 200 with 958,565 bytes of HTML that is BYTE-IDENTICAL (same
+      md5) to the control path /api/zzz-control-nonsense. The entire /api/* tree is a single-page-app
+      catch-all, so any probe under it reports a false success. The apex control /zzz-control-nonsense
+      correctly 404s.
+  - surface: MCPServer
+    url: https://graph8.com/mcp
+    http_status: 404
+    real: false
+    note: Marketed with named tools — search_contacts, enrich_company, read_signals — but no endpoint
+      is publicly reachable.
+  - surface: WellKnown
+    url: https://graph8.com/.well-known/api-catalog
+    http_status: 404
+    real: false
+X-Related-Brands:
+  note: One company, four brands.
+  brands:
+  - name: graph8
+    role: the platform
+  - name: graph8 build
+    role: the developer platform
+  - name: CIENCE
+    role: SDR and GTM services
+  - name: Tenbound
+    role: research magazine and Tuesday community

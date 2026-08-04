@@ -1,0 +1,16 @@
+generated: '2026-08-03'
+method: searched
+status: published
+source: https://graph8.com/pricing
+description: Free buyer-data search with usage-based pricing on execution. The public
+  claim is 700M contacts and 100M companies searchable free, with paid usage on campaigns,
+  dialer, agents and the rest of the execution surface.
+verified: '2026-08-03'
+model: freemium + usage-based
+free_tier: Buyer search across the data set is free; execution is metered.
+evidence:
+- url: https://graph8.com/pricing
+  status: 200
+gaps:
+- Individual tier names and prices were not parsed; the page is a marketing layout
+  rather than a machine-readable price list. No /api/pricing equivalent is published.

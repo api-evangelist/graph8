@@ -1,0 +1,45 @@
+# graph8
+
+> graph8 is an autonomous revenue system that finds buyers, launches campaigns, runs conversations, and builds pipeline on one buyer graph.
+
+## Platform
+
+- [Platform overview](https://graph8.com/): How graph8 combines buyer data, signals, campaigns, conversations, and revenue workflows in one system.
+- [Pricing](https://graph8.com/pricing/): Current plans for free buyer search, unlimited data, and usage-based revenue execution.
+- [Data](https://graph8.com/platform/data/): Contact, company, intent, and buyer-graph data for building and operating a market.
+- [Signals](https://graph8.com/platform/signals/): Website, intent, product, and market signals that identify when an account is ready for action.
+- [Studio](https://graph8.com/platform/studio/): Business context, campaign strategy, content generation, account intelligence, and publishing in one workspace.
+- [AI](https://graph8.com/platform/ai/): AI agents and governed workflows that operate against the same buyer graph and revenue memory.
+- [Revenue](https://graph8.com/platform/revenue/): Pipeline, quotes, performance, and cash visibility connected to the work that created each outcome.
+- [Data pipelines](https://graph8.com/platform/data-pipelines/): Event collection, transformation, destinations, replay, and warehouse connections.
+
+## Use Cases
+
+- [Free data](https://graph8.com/free-data/): Search and browse buyers before paying for execution.
+- [Dialer](https://graph8.com/dialer/): Calling workflows connected to contacts, campaigns, context, and follow-up.
+- [Integrations](https://graph8.com/integrations/): Connections across CRM, data, engagement, and revenue systems.
+- [Industries](https://graph8.com/industries/): Industry-specific ways to apply the buyer graph, signals, Studio, and agents.
+- [For builders](https://graph8.com/roles/builders/): Developer and technical-team use cases for extending graph8.
+- [Enterprise](https://graph8.com/enterprise/): Governance, scale, and deployment information for larger organizations.
+- [CIENCE services](https://graph8.com/gtm-services/): Human go-to-market services delivered through the graph8 system.
+- [Insights](https://graph8.com/insights/): Research and operating guidance on AI-native go-to-market systems.
+
+## Build
+
+- [Builder overview](https://graph8.com/build/): APIs, SDKs, MCP, sandbox keys, UI components, and controlled production access.
+- [API](https://graph8.com/build/api/): REST API capabilities and the path into detailed endpoint documentation.
+- [SDKs](https://graph8.com/build/sdks/): Client libraries and integration options for building on graph8.
+- [MCP](https://graph8.com/build/mcp/): Model Context Protocol access for agents and AI development tools.
+- [Documentation](https://graph8.com/build/docs/): Setup guides, concepts, API behavior, permissions, and error handling.
+
+## Key Facts
+
+- graph8 joins data, signals, Studio, engagement, agents, pipeline, and revenue on one buyer graph.
+- Public buyer search is available on the free plan; paid plans cover unlimited data and revenue execution.
+- The Builder surface provides APIs, SDKs, MCP, sandbox access, and reusable UI components.
+- CIENCE is the services layer and Tenbound is the research layer connected through the shared site navigation.
+
+## Optional
+
+- [Examples](https://graph8.com/build/examples/): Working patterns for common API and product integrations.
+
