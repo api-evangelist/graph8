@@ -13,7 +13,7 @@ description: 'graph8 is an autonomous revenue system — an AI-native B2B sales 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graph8.png
 created: '2026-08-03'
 modified: '2026-08-03'
-specificationVersion: '0.21'
+specificationVersion: '0.23'
 type: Index
 position: Producing
 access: 3rd-Party
