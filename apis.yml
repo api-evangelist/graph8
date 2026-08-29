@@ -1,5 +1,7 @@
 aid: graph8
 url: https://raw.githubusercontent.com/api-evangelist/graph8/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 name: graph8
 description: 'graph8 is an autonomous revenue system — an AI-native B2B sales platform that finds buyers,
   launches campaigns, runs conversations and builds pipeline against a single buyer graph. It spans buyer
