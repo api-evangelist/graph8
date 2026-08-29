@@ -10,6 +10,17 @@ description: 'graph8 is an autonomous revenue system — an AI-native B2B sales 
   graph8.com/build is documented across six areas — REST API, SDKs, CLI, MCP, React components and infrastructure
   — but is in preview: at the time of profiling no OpenAPI and no MCP endpoint were publicly fetchable,
   and a workspace endpoint is issued on request rather than self-serve.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graph8.png
 created: '2026-08-03'
 modified: '2026-08-03'
