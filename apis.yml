@@ -72,7 +72,7 @@ tags_raw:
 - MCP
 apis:
 - aid: graph8:graph8-build-api
-  name: graph8 build API
+  name: graph8 Build API
   description: One REST API across the revenue surface — contacts, companies, campaigns and events — plus
     SDKs, a CLI and an MCP server. Preview access; a workspace endpoint is issued on request.
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
@@ -110,7 +110,6 @@ apis:
     type: Pricing
   - url: https://graph8.com/llms.txt
     type: LlmsText
-  baseURL: https://graph8.com
   X-BaseURL-Note: No public API host is reachable — api.graph8.com does not resolve and a workspace endpoint
     is issued on request. The apex is recorded to satisfy the required field; it is NOT a callable API
     base URL.
