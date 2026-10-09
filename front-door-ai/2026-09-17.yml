@@ -1,0 +1,35 @@
+# Front Door AI Index — graph8 — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: graph8
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: graph8.com
+  final_host: graph8.com
+  ownership: own
+  owner: graph8
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 43
+  band: 6
+  band_label: dominant
+  host_score: 43
+  density: 16.14
+  words: 2664
+  tiers:
+    agentic: 8
+    core: 33
+    model: 2
+  ambiguous: 25
+  top_terms:
+    AI: 33
+    agent: 22
+    MCP: 6
+    AI agent: 2
+    automation: 2
+    ChatGPT: 1
+    Claude: 1
+    intelligence: 1
