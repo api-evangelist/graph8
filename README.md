@@ -64,44 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Autonomous revenue system — an AI-native B2B sales platform that finds buyers, launches
-campaigns, runs conversations and builds pipeline against one buyer graph.
+graph8 is an autonomous revenue system — an AI-native B2B sales platform that finds buyers, launches campaigns, runs conversations and builds pipeline against a single buyer graph. It spans buyer and intent data (a claimed 700M contacts and 100M companies), signals, a campaign studio, named agents, CRM and pipeline reporting, a built-in CDP with 500+ connectors, and a desktop companion. It is one of four brands under one company: graph8 the platform, graph8 build the developer platform, CIENCE the SDR and GTM services arm, and Tenbound the research magazine and community. The developer surface at graph8.com/build is documented across six areas — REST API, SDKs, CLI, MCP, React components and infrastructure — but is in preview: at the time of profiling no OpenAPI and no MCP endpoint were publicly fetchable, and a workspace endpoint is issued on request rather than self-serve.
 
-- **Platform:** https://graph8.com
-- **Developer platform:** https://graph8.com/build/
-- **Documentation:** https://docs.graph8.com
-- **Pricing:** https://graph8.com/pricing
-- **llms.txt:** https://graph8.com/llms.txt · https://docs.graph8.com/llms.txt
+**Areas:** Sales · Revenue · Business Intelligence · Contacts · Companies · Signals · Intents · Agents · Artificial Intelligence · Campaigns · CRM · Data Pipeline
 
-One company, four brands: **graph8** (platform), **graph8 build** (developers), **CIENCE**
-(SDR/GTM services), **Tenbound** (research magazine and community).
+## graph8 on APIs.io
 
-Part of the [API Evangelist](https://apievangelist.com) network. Profiled 2026-08-03; every
-surface was fetched first — see `X-Discovery` in `apis.yml`.
+Everything profiled for graph8 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/graph8/](https://apis.io/providers/graph8/)** — or go straight to one of the APIs or properties below.
 
-## What is published
+### APIs (1)
 
-| | |
-| --- | --- |
-| `graph8.com/llms.txt` | **200** — 3.4KB |
-| `docs.graph8.com/llms.txt` | **200** — 46KB, 278 links, 15 developer pages |
-| `/build/` — API, SDKs, CLI, MCP, components, infrastructure | **200** — six documented surfaces |
-| Pricing, status, changelog | **200** |
+- [graph8 Build API](https://apis.io/apis/graph8/graph8-build-api/) — One REST API across the revenue surface — contacts, companies, campaigns and events — plus SDKs, a CLI and an MCP server. Preview access; a workspace…
 
-## What is not — the honest gaps
+### Published properties
 
-**No OpenAPI is publicly fetchable.** 404 at `/openapi.json`, `docs.graph8.com/openapi.json` and
-`/api-reference/openapi.json`; `api.graph8.com` does not resolve. The `/build/status` page
-nonetheless advertises **"REST + OpenAPI — Operational"**.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**`graph8.com/api/openapi.json` looks like a spec and is not one.** It returns 200 with 958,565
-bytes that are **byte-identical** to a control request for `/api/zzz-control-nonsense` — the whole
-`/api/*` tree is a single-page-app catch-all. Any probe under it reports a false success. The apex
-control `/zzz-control-nonsense` correctly 404s, so this is scoped to `/api/*`.
+#### MCP servers (2)
 
-**No reachable MCP endpoint.** `/mcp` 404s, though MCP is marketed with named tools
-(`search_contacts`, `enrich_company`, `read_signals`).
+Model Context Protocol servers that expose the API to agents.
 
-**No spec was modelled on their behalf.** The developer platform is explicitly in preview and a
-workspace endpoint is issued on request, so these are gaps to close rather than defects to paper
-over.
+- [graph8](https://apis.io/servers/graph8/graph8/)
+- [https://docs.graph8.com/developers/mcp/](https://apis.io/servers/graph8/https-docs-graph8-com-developers-mcp/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Graph8 Plans](https://apis.io/plans/graph8/graph8-plans/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://graph8.com)
+- [Documentation](https://docs.graph8.com/)
+- [Pricing](https://graph8.com/pricing)
+- [Changelog](https://graph8.com/build/changelog)
+- [Blog](https://graph8.com/insights/)
+- [Status](https://graph8.com/build/status)
+
+## API Evangelist rating
+
+**Kin Score 26.1** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 23.7 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/graph8/](https://apis.io/providers/graph8/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for graph8: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/graph8/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
